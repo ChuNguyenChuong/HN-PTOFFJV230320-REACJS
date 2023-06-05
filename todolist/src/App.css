@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.nav-bar{
+  width: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(42, 53, 42, 0.3);
+  border-radius: 6px;
+  padding: 16px;
+  gap: 16px;
+}
+.btn-group{
+  display: flex;
+  gap: 8px;
+}
+.btn{
+  padding: 0px 6px;
+  cursor: pointer;
+}
+.btn-active{
+  border: 1px solid rgba(42, 53, 42, 0.3);
+  border-radius: 6px;
+  
+}
+
+.title{
+  font-size:112px;
+  color: rgb(230, 71, 71);
+}
+.list-todo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.item-todo{
+  width: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(42, 53, 42, 0.3);
+  border-radius: 6px;
+  padding: 16px;
+  gap: 16px;
+}
+
+.input-todo{
+  font-size: 1.5rem;
+  flex-grow: 1;
+  padding: 8px 16px;
+  outline: none;
+  border-radius: 6px;
+}
+.editing-false{
+  border: none
+}
+.editing-true{
+  border: 1px solid rgb(91, 149, 91)
+}
+.line-through{
+  text-decoration: line-through;
+}
+.completed{
+  opacity: 0.3;
+}
+.add-todo{
+  border: none;
+  flex-grow: 1;
+  outline: none;
+  font-size: 1.5rem;
+}
