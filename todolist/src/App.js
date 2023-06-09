@@ -45,8 +45,8 @@ function App() {
     <div className="App">
       <div className="title">todos</div>
       <div className="list-todo">
+        <InputTodo setTodoList={setTodoList} />
         <NavBar length={todoList.length} filterBy={filterBy} setFilterBy={setFilterBy} setTodoList={setTodoList} />
-        <InputTodo />
         {
           listTodoByFilter.map(todo => <ItemTodo todoList={todoList} setTodoList={setTodoList} key={todo.id} id={todo.id} isEdit={todo.isEdit} value={todo.title} status={todo.status} />)
         }
