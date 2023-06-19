@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": 1
+    },
+    {
+      "id": 2,
+      "title": "json-server supper fake",
+      "author": 1
+    },
+    {
+      "id": 2,
+      "title": "json-server supper fake user 2",
+      "author": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "body": "some comment new created",
+      "postId": 1,
+      "id": 2
+    },
+    {
+      "body": "some comment new created",
+      "postId": 1,
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "cnchuong",
+      "pass": 123
+    },
+    {
+      "id": 2,
+      "name": "hncao",
+      "pass": 123
+    }
+  ]
+}
