@@ -35,14 +35,41 @@
   ],
   "users": [
     {
-      "id": 1,
-      "name": "cnchuong",
-      "pass": 123
+      "name": "cnchuong-update",
+      "des": "mo ta thong ",
+      "id": 1
     },
     {
-      "id": 2,
       "name": "hncao",
-      "pass": 123
+      "des": "sadasd",
+      "id": 2
+    },
+    {
+      "name": "asdjlkasd",
+      "des": "asdasd",
+      "id": 3
+    },
+    {
+      "name": "new values",
+      "des": "asdasd",
+      "id": 4
+    },
+    {
+      "name": "uodate",
+      "des": "dasd",
+      "id": 5
+    }
+  ],
+  "todos": [
+    {
+      "title": "item 1",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "title": "item 3",
+      "userId": 1,
+      "id": 3
     }
   ]
 }

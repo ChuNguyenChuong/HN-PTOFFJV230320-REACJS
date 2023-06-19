@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 
 
 const PostsView = () => {
-    const [user, setUser] = useState(undefined)
+    const [user] = useState(undefined)
 
     useEffect(() => {
 
